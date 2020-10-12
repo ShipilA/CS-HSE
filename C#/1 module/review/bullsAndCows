@@ -1,0 +1,72 @@
+using System;
+using System.Globalization;
+using System.Runtime.ConstrainedExecution;
+
+namespace BullsAndCows
+{
+    class Program
+    {
+        public static bool GoodNum(long[] digits, long m)//checking if the number is m-digit and the digits are different
+        {
+            bool ok = digits[m - 1] > 0;//checking if the number is m-digit
+            for (int i = 0; i < m && ok; ++i)
+                for (int j = i + 1; j < m && ok; ++j)
+                    ok = ok && digits[i] != digits[j];//checking if the digits are different
+            return ok;
+        }
+        public static bool Guess(long[] digits, long m, long x)
+        {
+            long bulls = 0, cows = 0, i, j, cur, n = x;//extracting digits
+            for (i = 0; i < m; ++i)
+            {
+                cur = n % 10;
+                n /= 10;
+                bulls += cur == digits[i] ? 1 : 0;//counting guessed digits (in the correct places)
+                for (j = 0; j < m; ++j)
+                    cows += cur == digits[j] && i != j ? 1 : 0;//counting guessed digits (in the wrong places)
+            }
+            if (bulls == m)
+                return true;
+            Console.WriteLine($"You have guessed {bulls} bulls ans {cows} cows.");//returning the result
+            return false;
+        }
+        static void Main(string[] args)
+        {
+            Random rnd = new Random(); //creating an object for generation
+            long n, x, m, i, pow;
+            Console.WriteLine("Welcome to the game \"Bulls and cows\"." +
+                "\nIn this game you should try to guess a number with different digits." +
+                "\nThe program tells you, how much cows (correct digits in the wrong places) and bulls (correct digits in the correct places) you guess, unless you guess the number.\n" +
+                "If you enter a number with repeating digits, bulls for them sum up.");
+            do
+            {
+                do
+                {
+                    Console.WriteLine("Please, write, how much digits you want to use in the game (from 1 to 10)");
+                }
+                while (!long.TryParse(Console.ReadLine(), out m) || m > 10 || m < 1);//checking if the entered is suitable
+                long[] digits = new long[m];//array for digits
+                pow = (long)Math.Pow(10, m);//mod for the number
+                do //generating a suitable number
+                {
+                    n = rnd.Next() % pow; //if number > 10^m, we get last m digits of it
+                    for (i = 0; i < m; ++i)
+                    {
+                        digits[i] = n % 10;//extracting digits
+                        n /= 10;
+                    }
+                }
+                while (!GoodNum(digits, m));//checking if the number is suitable
+                do
+                {
+                    Console.WriteLine($"Please, enter a {m}-digit number and try to guess the hidden one.\n");
+                    while (!long.TryParse(Console.ReadLine(), out x) || x > pow - 1 || x < pow / 10)//asking a user to enter an m-digit number as long as (s)he don't
+                        Console.WriteLine($"You have entered not a {m}-digit number, please, try again");
+                }
+                while (!Guess(digits, m, x));//repeating as long as the user don't guess the hidden number
+                Console.WriteLine($"Congratulations! You have guessed the hidden namber, it's {x}.\n\n Would you like to repeat the game?\n(Please, write \"Yes\" (with a capital latter), if you do, and anything else, if you don't.)\n");//congratulating a user when the number was guessed
+            }
+            while (Console.ReadLine() == "Yes");
+        }
+    }
+}
