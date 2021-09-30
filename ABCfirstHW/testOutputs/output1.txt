@@ -1,0 +1,6 @@
+
+There are 0 animals in the container.
+
+
+The result of the quick sort:
+
