@@ -13,6 +13,15 @@
 В качестве ключей для сортировки и других действий используются результаты функции, общей для всех альтернатив.
 
 2. Структура изучаемой вычислительной системы
+Схема программы
+Animal.h -> Bird.h
+Animal.h -> Beast.h
+Animal.h -> Fish.h
+Animal.h -> Task2_ShipilA.cpp
+Bird.h -> Task2_ShipilA.cpp
+Beast.h -> Task2_ShipilA.cpp
+Fish.h -> Task2_ShipilA.cpp
+
 Типы
 название типа:                                              |  размер:
 ____________________________________________________________________________________
@@ -23,11 +32,40 @@ void*                                                       |  8 байт
 int                                                         |  4 байта
 int                                                         |  4 байта
 enum EatingType (predator, herbivore, insectivorous)        |  4[0] байта
-class Beast (int, int, enum EatingType)                     |  12 байт (4[0] + 4[0] + 4[0])
+class Beast (int, int, enum EatingType)                     |  12 байт (4 + 4 + 4)
 enum PlaceOfLiving (river, sea, lake)                       |  4[0] байта
-class Fish (int, int, enum EatingType)                      |  12 байт (4[0] + 4[0] + 4[0])
-class Bird (int, int, bool)                                 |  12 байт (4[0] + 4[0] + 1[0] (размер bool может быть больше, зависит от реализации) + 3 (выравнивание)) 
-std::vector<IAnimal*>(n)                                    |  около 12 * n + 24 байт (12 * n + sizeof(vector) (это обычно 3*sizeof(void*), т.е. 24) + O(n) байт)
+class Fish (int, int, enum EatingType)                      |  12 байт (4 + 4 + 4)
+class Bird (int, int, bool)                                 |  12 байт (4 + 4 + 1 (размер bool может быть больше, зависит от реализации) + 3 (выравнивание)) 
+std::vector<IAnimal*>(n)                                    |  около 4 * n + 24 байт (12 * n + sizeof(vector) (это обычно 3*sizeof(void*), т.е. 24) + O(n) байт)
+Глобальная память
+Память программы
+________________
+Main:                              40 428 байт
+ int argc                         | 4 байта
+ char* argv                       | 8 байт
+ clock_t start                    | 4 байта
+ int i                            | 4 байта
+ std::vector<IAnimal*> animals    | 4 * n + 24 байт, т.е. до 40 024 байт
+ std::string type, label, param   | до 16 байтов (т.е. названия генерятся до 15 символов)
+ int weight                       | 4 байта
+ clock_t end                      | 4 байта
+ std::ifstream input              | 184 байта
+ std::ofstream output             | 176 байт
+________________
+QuickSort                         28 байт
+std::vector<IAnimal*> &animals    | 8 байт
+int cnt                           | 4 байтa
+int i                             | 4 байтa
+int j                             | 4 байтa
+IAnimal* temp                     | 4 байтa
+IAnimal* center                   | 4 байтa
+________________
+Stack
+Main->QuickSort                   | 40 456 байт
+________________
+Heap
+<IAnimal>(n)                      | 12 * n байт
+
 
 
 3. Основные характеристики программы:
