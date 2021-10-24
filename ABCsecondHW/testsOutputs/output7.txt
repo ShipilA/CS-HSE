@@ -1,0 +1,10 @@
+Beast Ggyhmbik weights 16815 gramms and is a predator
+Beast H weights 19820 gramms and is herbivore
+
+There are 2 animals in the container.
+
+
+The result of the quick sort:
+
+Beast Ggyhmbik weights 16815 gramms and is a predator
+Beast H weights 19820 gramms and is herbivore

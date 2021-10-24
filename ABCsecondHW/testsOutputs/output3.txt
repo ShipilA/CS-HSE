@@ -1,0 +1,56 @@
+Beast Lkpfuzpwh weights 28416 gramms and is a predator
+Beast Uccrmksyriso weights 23551 gramms and is herbivore
+Bird Xirv weights 29143 gramms and is migratory
+Fish Lnpecp weights 11142 gramms and lives in sea
+Bird Mlwn weights 31827 gramms and is migratory
+Fish Mbxindam weights 25092 gramms and lives in river
+Fish Gtmxeuiver weights 7422 gramms and lives in sea
+Bird Coury weights 31230 gramms and is migratory
+Beast Qqqaubxc weights 19071 gramms and is a predator
+Beast Z weights 2765 gramms and is a predator
+Beast Ivqgqro weights 5509 gramms and is a predator
+Fish Eawpiowcxwwe weights 7530 gramms and lives in lake
+Beast Ryop weights 14579 gramms and is a predator
+Fish Jqmuonhhjw weights 4933 gramms and lives in sea
+Fish Iymw weights 19686 gramms and lives in river
+Beast Vdcnqdvymifggw weights 27191 gramms and is insectivorous
+Beast Bte weights 5401 gramms and is a predator
+Fish Mvzzi weights 12543 gramms and lives in lake
+Bird Xgrt weights 30834 gramms and is not migratory
+Bird Zfdoauuiasrrsli weights 17116 gramms and is migratory
+Bird Ar weights 17819 gramms and is migratory
+Fish Bykrllb weights 26101 gramms and lives in lake
+Bird Lmliroapvt weights 14964 gramms and is migratory
+Beast Rnagpgp weights 18510 gramms and is insectivorous
+Bird Ztwyeasm weights 20563 gramms and is not migratory
+
+There are 25 animals in the container.
+
+
+The result of the quick sort:
+
+Beast Lkpfuzpwh weights 28416 gramms and is a predator
+Beast Uccrmksyriso weights 23551 gramms and is herbivore
+Bird Mlwn weights 31827 gramms and is migratory
+Fish Lnpecp weights 11142 gramms and lives in sea
+Bird Xirv weights 29143 gramms and is migratory
+Fish Mbxindam weights 25092 gramms and lives in river
+Bird Lmliroapvt weights 14964 gramms and is migratory
+Bird Coury weights 31230 gramms and is migratory
+Beast Qqqaubxc weights 19071 gramms and is a predator
+Beast Z weights 2765 gramms and is a predator
+Beast Ivqgqro weights 5509 gramms and is a predator
+Fish Eawpiowcxwwe weights 7530 gramms and lives in lake
+Bird Ar weights 17819 gramms and is migratory
+Bird Zfdoauuiasrrsli weights 17116 gramms and is migratory
+Fish Iymw weights 19686 gramms and lives in river
+Beast Vdcnqdvymifggw weights 27191 gramms and is insectivorous
+Beast Bte weights 5401 gramms and is a predator
+Fish Mvzzi weights 12543 gramms and lives in lake
+Bird Xgrt weights 30834 gramms and is not migratory
+Fish Jqmuonhhjw weights 4933 gramms and lives in sea
+Beast Ryop weights 14579 gramms and is a predator
+Fish Bykrllb weights 26101 gramms and lives in lake
+Fish Gtmxeuiver weights 7422 gramms and lives in sea
+Beast Rnagpgp weights 18510 gramms and is insectivorous
+Bird Ztwyeasm weights 20563 gramms and is not migratory
