@@ -1,0 +1,6 @@
+Bird Pigeon 360 false
+Beast Cat 6743 predator
+Bird Sparrow 213 false
+Bird Rook 374 true
+Fish Herring 731 lake
+Beast Anteater 51423 insectivorous

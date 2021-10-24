@@ -1,0 +1,4 @@
+Bird Chicken 735 false
+Beast Dog 12340 predator
+Bird Mocker 432 true
+Fish Guppy 27 lake
