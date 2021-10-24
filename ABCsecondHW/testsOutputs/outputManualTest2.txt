@@ -1,0 +1,12 @@
+Beast Deer weights 120350 gramms and is herbivore
+Beast Anteater weights 51423 gramms and is insectivorous
+Beast Cat weights 6743 gramms and is a predator
+
+There are 3 animals in the container.
+
+
+The result of the quick sort:
+
+Beast Deer weights 120350 gramms and is herbivore
+Beast Cat weights 6743 gramms and is a predator
+Beast Anteater weights 51423 gramms and is insectivorous

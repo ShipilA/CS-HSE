@@ -1,0 +1,16 @@
+Fish Pike weights 3125 gramms and lives in river
+Fish Clownfish weights 231 gramms and lives in sea
+Fish Nemo weights 250 gramms and lives in sea
+Fish Herring weights 731 gramms and lives in lake
+Fish Mackerel weights 1820 gramms and lives in sea
+
+There are 5 animals in the container.
+
+
+The result of the quick sort:
+
+Fish Pike weights 3125 gramms and lives in river
+Fish Clownfish weights 231 gramms and lives in sea
+Fish Mackerel weights 1820 gramms and lives in sea
+Fish Herring weights 731 gramms and lives in lake
+Fish Nemo weights 250 gramms and lives in sea

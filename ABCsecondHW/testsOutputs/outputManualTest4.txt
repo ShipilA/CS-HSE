@@ -1,0 +1,16 @@
+Bird Bullfinch weights 451 gramms and is migratory
+Bird Magpie weights 321 gramms and is migratory
+Bird Sparrow weights 213 gramms and is not migratory
+Bird Rook weights 374 gramms and is migratory
+Bird Pigeon weights 360 gramms and is not migratory
+
+There are 5 animals in the container.
+
+
+The result of the quick sort:
+
+Bird Bullfinch weights 451 gramms and is migratory
+Bird Magpie weights 321 gramms and is migratory
+Bird Pigeon weights 360 gramms and is not migratory
+Bird Rook weights 374 gramms and is migratory
+Bird Sparrow weights 213 gramms and is not migratory

@@ -1,0 +1,14 @@
+Bird Chicken weights 735 gramms and is not migratory
+Beast Dog weights 12340 gramms and is a predator
+Bird Mocker weights 432 gramms and is migratory
+Fish Guppy weights 27 gramms and lives in lake
+
+There are 4 animals in the container.
+
+
+The result of the quick sort:
+
+Bird Chicken weights 735 gramms and is not migratory
+Beast Dog weights 12340 gramms and is a predator
+Fish Guppy weights 27 gramms and lives in lake
+Bird Mocker weights 432 gramms and is migratory
