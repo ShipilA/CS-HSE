@@ -1,0 +1,4 @@
+
+There are0animals in the container.
+
+The result of the quick sort:

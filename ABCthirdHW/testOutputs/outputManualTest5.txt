@@ -1,0 +1,16 @@
+Bird Pigeon weight 360 grams and is not migratory
+Beast Cat weight 6743 grams and is predator
+Bird Sparrow weight 213 grams and is not migratory
+Bird Rook weight 374 grams and is migratory
+Fish Herring weight 731 grams and lives in lake
+Beast Anteater weight 51423 grams and is insectivorous
+
+There are6animals in the container.
+
+The result of the quick sort:
+Bird Rook weight 374 grams and is migratory
+Beast Cat weight 6743 grams and is predator
+Bird Sparrow weight 213 grams and is not migratory
+Bird Pigeon weight 360 grams and is not migratory
+Fish Herring weight 731 grams and lives in lake
+Beast Anteater weight 51423 grams and is insectivorous

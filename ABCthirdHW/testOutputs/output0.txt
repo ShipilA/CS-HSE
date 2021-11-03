@@ -1,1 +1,22 @@
+Bird colibri weight 4 grams and is not migratory
+Bird mockingbird weight 49 grams and is not migratory
+Bird bullfinch weight 24 grams and is migratory
+Beast lion weight 172300 grams and lives in predator
+Beast panda weight 110700 grams and lives in herbivore
+Beast hedgehog weight 760 grams and lives in insectivorous
+Fish beluga weight 1500000 grams and lives in river
+Fish tuna weight 23010 grams and lives in sea
+Fish perch weight 2610 grams and lives in lake
 
+There are9animals in the container.
+
+The result of the quick sort:
+Beast hedgehog weight 760 grams and lives in insectivorous
+Fish tuna weight 23010 grams and lives in sea
+Fish perch weight 2610 grams and lives in lake
+Beast lion weight 172300 grams and lives in predator
+Beast panda weight 110700 grams and lives in herbivore
+Bird bullfinch weight 24 grams and is migratory
+Fish beluga weight 1500000 grams and lives in river
+Bird mockingbird weight 49 grams and is not migratory
+Bird colibri weight 4 grams and is not migratory
