@@ -1,0 +1,3 @@
+Beast Deer 120350 herbivore
+Beast Anteater 51423 insectivorous
+Beast Cat 6743 predator

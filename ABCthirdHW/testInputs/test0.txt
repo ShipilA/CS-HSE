@@ -1,1 +1,9 @@
-
+Bird colibri 4 false
+Bird mockingbird 49 false
+Bird bullfinch 24 true
+Beast lion 172300 predator
+Beast panda 110700 herbivore
+Beast hedgehog 760 insectivorous
+Fish beluga 1500000 river
+Fish tuna 23010 sea
+Fish perch 2610 lake

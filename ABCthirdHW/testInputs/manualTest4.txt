@@ -1,0 +1,5 @@
+Bird Bullfinch 451 true
+Bird Magpie 321 true
+Bird Sparrow 213 false
+Bird Rook 374 true
+Bird Pigeon 360 false
