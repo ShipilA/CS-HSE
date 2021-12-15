@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
-#include "PirateCrew.cpp"
+#include "PirateCrew.c"
 
 int main(int argc, char* argv[]) {
     // Reading input data
@@ -47,8 +47,9 @@ int main(int argc, char* argv[]) {
     } else {
         printf("Write two integer numbers (x and y coordinates of the treasure).\n");
         int x, y;
-        while (scanf("%d %d", &x, &y) != 2 || x < 0 || x > N || y < 0 || y > M) {
-            printf("Incorrect input! Write two integer numbers (x and y coordinates of the treasure), which are in the island boundaries.\n");
+        if (scanf("%d %d", &x, &y) != 2 || x < 0 || x > N || y < 0 || y > M) {
+            printf("Error. Incorrect input! Write two integer numbers (x and y coordinates of the treasure), which are in the island boundaries.\n");
+            exit(0);
         }
         if (OUTPUT != NULL)
             fprintf(OUTPUT, "Coordinates of the treasure were chosen by user: %d %d.\n", x, y);
