@@ -1,0 +1,11 @@
+Coordinates of the treasure were generated randomly.
+
+Pirates are on the island! They are going to find the treasure.
+
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 0
+Searching for the treasure at coordinates: 0 0
+The treasure was found at coordinates: 0 0!
+
+After looking for treasure at 1 coordinates, pirates found it.
+
+Program execution time: 1.000349 seconds

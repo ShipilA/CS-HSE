@@ -1,0 +1,50 @@
+Coordinates of the treasure were chosen by user: 13 0.
+
+Pirates are on the island! They are going to find the treasure.
+
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 0
+Silver is sending pirate number 1 to look for the treasure at coordinates: 1 0
+Searching for the treasure at coordinates: 0 0
+Silver is sending pirate number 2 to look for the treasure at coordinates: 2 0
+Searching for the treasure at coordinates: 1 0
+Silver is sending pirate number 3 to look for the treasure at coordinates: 3 0
+Searching for the treasure at coordinates: 2 0
+Silver is sending pirate number 4 to look for the treasure at coordinates: 4 0
+Searching for the treasure at coordinates: 3 0
+Silver is sending pirate number 5 to look for the treasure at coordinates: 5 0
+Searching for the treasure at coordinates: 4 0
+Silver is sending pirate number 6 to look for the treasure at coordinates: 6 0
+Searching for the treasure at coordinates: 5 0
+Searching for the treasure at coordinates: 6 0
+At coordinates: 1 0 - there is no treasure:(
+At coordinates: 4 0 - there is no treasure:(
+At coordinates: 2 0 - there is no treasure:(
+At coordinates: 3 0 - there is no treasure:(
+At coordinates: 5 0 - there is no treasure:(
+At coordinates: 0 0 - there is no treasure:(
+At coordinates: 6 0 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 7 0
+Silver is sending pirate number 1 to look for the treasure at coordinates: 8 0
+Searching for the treasure at coordinates: 7 0
+Silver is sending pirate number 2 to look for the treasure at coordinates: 9 0
+Searching for the treasure at coordinates: 8 0
+Silver is sending pirate number 3 to look for the treasure at coordinates: 10 0
+Searching for the treasure at coordinates: 9 0
+Silver is sending pirate number 4 to look for the treasure at coordinates: 11 0
+Searching for the treasure at coordinates: 10 0
+Silver is sending pirate number 5 to look for the treasure at coordinates: 12 0
+Silver is sending pirate number 6 to look for the treasure at coordinates: 13 0
+Searching for the treasure at coordinates: 11 0
+Searching for the treasure at coordinates: 12 0
+Searching for the treasure at coordinates: 13 0
+At coordinates: 10 0 - there is no treasure:(
+At coordinates: 7 0 - there is no treasure:(
+At coordinates: 12 0 - there is no treasure:(
+At coordinates: 8 0 - there is no treasure:(
+At coordinates: 9 0 - there is no treasure:(
+At coordinates: 11 0 - there is no treasure:(
+The treasure was found at coordinates: 13 0!
+
+After looking for treasure at 14 coordinates, pirates found it.
+
+Program execution time: 2.084655 seconds

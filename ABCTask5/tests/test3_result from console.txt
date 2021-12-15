@@ -1,0 +1,1 @@
+Incorrect input file, it should contain 3 positive integers: the height, the width of the island and the amount of pirates.

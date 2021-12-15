@@ -1,0 +1,68 @@
+Coordinates of the treasure were chosen by user: 3 4.
+
+Pirates are on the island! They are going to find the treasure.
+
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 0
+Searching for the treasure at coordinates: 0 0
+At coordinates: 0 0 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 1
+Searching for the treasure at coordinates: 0 1
+At coordinates: 0 1 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 2
+Searching for the treasure at coordinates: 0 2
+At coordinates: 0 2 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 3
+Searching for the treasure at coordinates: 0 3
+At coordinates: 0 3 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 0 4
+Searching for the treasure at coordinates: 0 4
+At coordinates: 0 4 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 1 0
+Searching for the treasure at coordinates: 1 0
+At coordinates: 1 0 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 1 1
+Searching for the treasure at coordinates: 1 1
+At coordinates: 1 1 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 1 2
+Searching for the treasure at coordinates: 1 2
+At coordinates: 1 2 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 1 3
+Searching for the treasure at coordinates: 1 3
+At coordinates: 1 3 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 1 4
+Searching for the treasure at coordinates: 1 4
+At coordinates: 1 4 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 2 0
+Searching for the treasure at coordinates: 2 0
+At coordinates: 2 0 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 2 1
+Searching for the treasure at coordinates: 2 1
+At coordinates: 2 1 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 2 2
+Searching for the treasure at coordinates: 2 2
+At coordinates: 2 2 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 2 3
+Searching for the treasure at coordinates: 2 3
+At coordinates: 2 3 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 2 4
+Searching for the treasure at coordinates: 2 4
+At coordinates: 2 4 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 3 0
+Searching for the treasure at coordinates: 3 0
+At coordinates: 3 0 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 3 1
+Searching for the treasure at coordinates: 3 1
+At coordinates: 3 1 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 3 2
+Searching for the treasure at coordinates: 3 2
+At coordinates: 3 2 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 3 3
+Searching for the treasure at coordinates: 3 3
+At coordinates: 3 3 - there is no treasure:(
+Silver is sending pirate number 0 to look for the treasure at coordinates: 3 4
+Searching for the treasure at coordinates: 3 4
+The treasure was found at coordinates: 3 4!
+
+After looking for treasure at 20 coordinates, pirates found it.
+
+Program execution time: 20.006177 seconds
